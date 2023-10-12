@@ -1,7 +1,7 @@
 {
-  "name": "react-app",
+  "name": "react-app-tech-part",
   "version": "5.0.0",
-  "homepage": "https://lezver.github.io/react-app",
+  "homepage": "https://Evgeniy-x.github.io/react-app-tech-part",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
