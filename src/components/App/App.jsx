@@ -1,8 +1,8 @@
 import './App.scss';
 import { Route, Routes } from 'react-router-dom';
-import Home from '../../pages/Home';
-import Catalog from '../../pages/Catalog';
-import Favorites from '../../pages/Favorites';
+import Home from '../../pages/Home/Home';
+import Catalog from '../../pages/Catalog/Catalog';
+import Favorites from '../../pages/Favorites/Favorites';
 
 export const App = () => {
   return (

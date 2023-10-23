@@ -1,0 +1,49 @@
+.home {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  position: relative;
+  background: url('../../images/home.jpg') no-repeat center / contain;
+  box-shadow: inset 0px 0px 25px 25px var(--white);
+
+  @media screen and (min-width: 576px) {
+    box-shadow: inset 0px 0px 35px 35px var(--white);
+  }
+
+  > h1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    font-family: var(--c-b);
+    color: var(--light-blue);
+    text-align: center;
+    font-size: 28px;
+
+    > span {
+      color: var(--blue);
+      font-size: 32px;
+      text-shadow: 1px 1px 1px var(--gray);
+
+      > span {
+        color: var(--half-white);
+      }
+    }
+
+    @media screen and (min-width: 576px) {
+      top: 15%;
+      font-size: 36px;
+      > span {
+        font-size: 40px;
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+      top: 10%;
+      font-size: 40px;
+      > span {
+        font-size: 44px;
+      }
+    }
+  }
+}

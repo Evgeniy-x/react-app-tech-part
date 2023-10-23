@@ -1,0 +1,103 @@
+.favorites {
+  padding: 0 24px;
+  position: relative;
+
+  > h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  > .favorites__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25vh auto 0;
+    gap: var(--gap);
+
+    @media screen and (min-width: 576px) {
+      margin-top: 35vh;
+    }
+
+    > h3 {
+      text-align: center;
+      font-size: 30px;
+      color: var(--light-blue);
+    }
+
+    > svg {
+      color: var(--blue);
+    }
+  }
+
+  > ul {
+    min-width: 300px;
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    padding-top: 40px;
+
+    > li {
+      padding: 8px 16px;
+      border-bottom: 1px solid var(--light-blue);
+      display: flex;
+
+      justify-content: space-between;
+      transition: transform var(--time) var(--time-destribution),
+        border var(--time) var(--time-destribution);
+
+      &:hover,
+      &:focus {
+        transform: scale(1.1);
+        border-bottom: 1px solid var(--black);
+
+        > a {
+          color: var(--gray);
+          transition: color var(--time) var(--time-destribution);
+          > span {
+            color: var(--blue);
+            transition: color var(--time) var(--time-destribution);
+          }
+        }
+      }
+
+      > a {
+        align-self: center;
+        text-align: center;
+        color: var(--black);
+        font-family: var(--c-b);
+        > span {
+          color: var(--light-blue);
+        }
+      }
+      > .favorites__remove-favorite-car {
+        background-color: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        > svg {
+          color: var(--light-blue);
+          transition: color var(--time) var(--time-destribution);
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    display: flex;
+    gap: 24px;
+
+    > ul {
+      padding: 40px;
+    }
+  }
+}
