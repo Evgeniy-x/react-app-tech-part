@@ -1,19 +1,24 @@
-import './App.scss';
 import { Route, Routes } from 'react-router-dom';
-import Home from '../../pages/Home/Home';
-import Catalog from '../../pages/Catalog/Catalog';
-import Favorites from '../../pages/Favorites/Favorites';
+import { lazy, useState } from 'react';
+import './App.scss';
+import { Layout } from '../';
+import { Home, Favorites, NotFound } from '../../pages';
+import { Info } from '../';
+const Catalog = lazy(() => import('../../pages/Catalog/Catalog'));
 
 export const App = () => {
-  return (
-    <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/catalog" element={<Catalog />} />
-        <Route path="/favorites" element={<Favorites />} />
+  const [chooseCar, setChooseCar] = useState(null);
 
-        <Route path="*" element={<Home />} />
-      </Routes>
-    </>
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="catalog" element={<Catalog />} />
+        <Route path="favorites" element={<Favorites choose={setChooseCar} />}>
+          <Route path="info" element={<Info car={chooseCar} />} />
+        </Route>
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
   );
 };

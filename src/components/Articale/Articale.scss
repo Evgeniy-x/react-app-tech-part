@@ -1,0 +1,97 @@
+.articale {
+  background-color: transparent;
+  padding: 40px;
+  border-radius: 24px;
+  position: relative;
+
+  > img {
+    border-radius: 14px;
+    margin-bottom: 14px;
+  }
+
+  > h3 {
+    margin: 0;
+    font-family: var(--c-b);
+    margin-bottom: 8px;
+
+    > span {
+      color: var(--light-blue);
+    }
+  }
+
+  > .articale__characteristics {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 14px;
+
+    > span {
+      color: var(--half-black);
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+
+  > .articale__description {
+    font-size: 14px;
+
+    margin-bottom: 24px;
+  }
+  > h4 {
+    font-size: 14px;
+    font-family: var(--c-b);
+    margin-bottom: 8px;
+  }
+
+  > .articale__accessories {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 14px;
+
+    > span {
+      color: var(--half-black);
+      font-size: 12px;
+    }
+  }
+
+  > .articale_conditions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+
+    > span {
+      color: #363535;
+      font-size: 12px;
+      border-radius: 35px;
+      padding: 7px 14px;
+      background-color: #f9f9f9;
+
+      > span {
+        color: var(--light-blue);
+      }
+    }
+  }
+
+  > a {
+    display: block;
+    width: fit-content;
+    color: var(--white);
+    background-color: var(--light-blue);
+    padding: 12px 50px;
+    border-radius: 12px;
+    font-size: 14px;
+    transition: background var(--time) var(--time-destribution),
+      transform var(--time) var(--time-destribution);
+
+    &:hover,
+    &:focus {
+      background-color: var(--blue);
+    }
+    &:active {
+      background-color: var(--gray);
+      transform: scale(0.95);
+    }
+  }
+}
