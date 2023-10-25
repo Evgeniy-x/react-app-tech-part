@@ -1,4 +1,4 @@
-import { Articale } from '../';
+import Articale from '../Articale/Articale.jsx';
 
 export default Info = ({ car }) => (
   <>
