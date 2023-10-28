@@ -1,5 +1,6 @@
 import './Articale.scss';
 import capCar from '../../images/cap-car.jpg';
+// import capCar from '../../images/cap-car.jpg';
 
 export default Articale = ({ car }) => {
   const foundCityAndCountry = () =>
