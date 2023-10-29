@@ -3,7 +3,7 @@ import ListCars from '../../components/ListCars/ListCars';
 import Loader from '../../components/Loader/Loader';
 import Filter from '../../components/Filter/Filter';
 import { useEffect, useState } from 'react';
-import getCars from '../../services/Api';
+import { getCars } from '../../services/Api';
 import { BsDownload } from 'react-icons/bs';
 
 const Catalog = () => {
