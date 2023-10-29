@@ -4,7 +4,7 @@ import Articale from '../Articale/Articale.jsx';
 import { RxCross2 } from 'react-icons/rx';
 import { useEffect } from 'react';
 
-export const Overlay = ({ isOpen, car }) => {
+export default Overlay = ({ isOpen, car }) => {
   // eslint-disable-next-line
   useEffect(() => (document.body.style.overflow = 'hidden'), []);
 

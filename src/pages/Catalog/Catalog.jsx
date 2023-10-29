@@ -1,7 +1,9 @@
 import './Catalog.scss';
-// import { ListCars, Loader, Filter } from '../../components';
+import ListCars from '../../components/ListCars/ListCars';
+import Loader from '../../components/Loader/Loader';
+import Filter from '../../components/Filter/Filter';
 import { useEffect, useState } from 'react';
-import { getCars } from '../../services/Api';
+import getCars from '../../services/Api';
 import { BsDownload } from 'react-icons/bs';
 
 const Catalog = () => {
@@ -34,18 +36,15 @@ const Catalog = () => {
   return (
     <section className="catalog">
       <h2>Catalog</h2>
-
-      {/* <Filter cars={cars} filter={setFilteredCars} page={setPage} /> */}
-
-      {/* <ListCars
+      <Filter cars={cars} filter={setFilteredCars} page={setPage} />
+      <ListCars
         cars={
           filteredCars.length
             ? filteredCars?.slice(0, page)
             : cars?.slice(0, page)
         }
-      /> */}
-
-      {/* {isLoading ? (
+      />{' '}
+      {isLoading ? (
         <Loader />
       ) : (
         <>
@@ -60,7 +59,7 @@ const Catalog = () => {
             </button>
           )}
         </>
-      )} */}
+      )}
     </section>
   );
 };

@@ -1,7 +1,8 @@
 import './Layout.scss';
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Loader, Navigation } from '../';
+import Loader from '../Loader/Loader';
+import Navigation from '../Navigation/Navigation';
 
 export default Layout = () => (
   <>

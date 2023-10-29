@@ -4,7 +4,7 @@ import './ItemCar.scss';
 import { MdOutlineFavoriteBorder, MdOutlineFavorite } from 'react-icons/md';
 import capCar from '../../images/cap-car.jpg';
 
-export const ItemCar = ({ car }) => {
+export default ItemCar = ({ car }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
 

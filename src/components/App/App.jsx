@@ -1,12 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
 import { lazy, useState } from 'react';
 import './App.scss';
-import { Layout } from '../';
-import { Home, Favorites, NotFound } from '../../pages';
-import { Info } from '../';
+import Layout from '../Layout/Layout';
+import Home from '../../pages/Home/Home';
+import Favorites from '../../pages/Favorites/Favorites';
+import NotFound from '../../pages/NotFound/NotFound';
+import Info from '../Info/Info';
 const Catalog = lazy(() => import('../../pages/Catalog/Catalog'));
 
-export const App = () => {
+export default App = () => {
   const [chooseCar, setChooseCar] = useState(null);
 
   return (
