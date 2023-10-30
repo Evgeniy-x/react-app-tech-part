@@ -1,14 +1,9 @@
 import { Watch } from 'react-loader-spinner';
 
 export default Loader = () => (
-  <Watch
-    height="80"
-    width="80"
-    radius="48"
-    color="#3470ff"
-    ariaLabel="watch-loading"
+  <Watch>
+    height="80" width="80" radius="48" color="#3470ff" ariaLabel="watch-loading"
     wrapperStyle={{ justifyContent: 'center' }}
-    wrapperClassName=""
-    visible={true}
-  />
+    wrapperClassName="" visible={true}
+  </Watch>
 );

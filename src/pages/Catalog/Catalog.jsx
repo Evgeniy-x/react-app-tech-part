@@ -44,9 +44,10 @@ const Catalog = () => {
             : cars?.slice(0, page)
         }
       />{' '}
-      {isLoading ? (
-        <Loader />
-      ) : (
+      {
+        // isLoading ? (
+        // <Loader />
+        // ) :
         <>
           {page < (filteredCars.length ? filteredCars.length : cars.length) && (
             <button
@@ -59,7 +60,7 @@ const Catalog = () => {
             </button>
           )}
         </>
-      )}
+      }
     </section>
   );
 };
