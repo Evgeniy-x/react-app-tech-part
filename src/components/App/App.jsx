@@ -8,7 +8,7 @@ import NotFound from '../../pages/NotFound/NotFound';
 import Info from '../Info/Info';
 const Catalog = lazy(() => import('../../pages/Catalog/Catalog'));
 
-export default App = () => {
+export const App = () => {
   const [chooseCar, setChooseCar] = useState(null);
 
   return (
