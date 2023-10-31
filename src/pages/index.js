@@ -1,6 +1,5 @@
-import Home from './Home/Home';
-import Catalog from './Catalog/Catalog';
-import Favorites from './Favorites/Favorites';
-import NotFound from './NotFound';
+import { Home } from './Home';
+import { Favorites } from './Favorites';
+import { NotFound } from './NotFound';
 
-export { Home, Catalog, Favorites, NotFound };
+export { Home, Favorites, NotFound };

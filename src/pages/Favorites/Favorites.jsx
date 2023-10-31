@@ -3,7 +3,7 @@ import './Favorites.scss';
 import { NavLink, Outlet } from 'react-router-dom';
 import { BsFillHeartbreakFill } from 'react-icons/bs';
 
-const Favorites = ({ choose }) => {
+export const Favorites = ({ choose }) => {
   const [favoriteCars, setFavoriteCars] = useState([]);
 
   useEffect(() => {
@@ -60,5 +60,3 @@ const Favorites = ({ choose }) => {
     </section>
   );
 };
-
-export default Favorites;

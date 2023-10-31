@@ -11,5 +11,3 @@ export const Home = () => (
     </h1>
   </section>
 );
-
-export default Home;

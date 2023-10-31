@@ -3,7 +3,7 @@ import './NotFound.scss';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 
-const NotFound = () => {
+export const NotFound = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -18,5 +18,3 @@ const NotFound = () => {
     </section>
   );
 };
-
-export default NotFound;

@@ -25,17 +25,6 @@ export const Layout = () => (
       </div>
     </main>
 
-    <footer className="footer">
-      <span>
-        By:
-        <a
-          href="https://github.com/lezver"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vladislav Gulida
-        </a>
-      </span>
-    </footer>
+    <footer className="footer"></footer>
   </>
 );
