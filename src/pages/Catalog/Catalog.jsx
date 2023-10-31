@@ -1,6 +1,6 @@
 import './Catalog.scss';
 import ListCars from '../../components/ListCars/ListCars';
-import Loader from '../../components/Loader/Loader';
+// import Loader from '../../components/Loader/Loader';
 import Filter from '../../components/Filter/Filter';
 import { useEffect, useState } from 'react';
 import { getCars } from '../../services/Api';

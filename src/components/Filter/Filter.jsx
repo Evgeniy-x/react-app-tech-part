@@ -1,7 +1,7 @@
 import Notiflix from 'notiflix';
 import('./Filter.scss');
 
-export default Filter = ({ cars, filter, page }) => {
+export const Filter = ({ cars, filter, page }) => {
   const uniqueBrands = cars =>
     cars
       .map(({ make }) => make)

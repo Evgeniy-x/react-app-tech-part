@@ -1,7 +1,7 @@
 import './Articale.scss';
 import capCar from '../../images/cap-car.jpg';
 
-export default Articale = ({ car }) => {
+export const Articale = ({ car }) => {
   const foundCityAndCountry = () =>
     car?.address.split(',').splice(1, 2).join(' |');
 
