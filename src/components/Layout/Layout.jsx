@@ -1,10 +1,9 @@
 import './Layout.scss';
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import Loader from '../Loader/Loader';
-import Navigation from '../Navigation/Navigation';
+import { Loader, Navigation } from '../';
 
-export default Layout = () => (
+export const Layout = () => (
   <>
     <header className="header">
       <div className="wrapper">

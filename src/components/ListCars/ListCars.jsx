@@ -1,7 +1,7 @@
 import './ListCars.scss';
-import ItemCar from '../ItemCar/ItemCar';
+import { ItemCar } from '../';
 
-export default ListCars = ({ cars }) => (
+export const ListCars = ({ cars }) => (
   <ul className="list-cars">
     {cars?.map(car => (
       <ItemCar car={car} key={car.id} />

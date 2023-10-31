@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom';
 import './Overlay.scss';
-import Articale from '../Articale/Articale.jsx';
+import { Articale } from '../';
 import { RxCross2 } from 'react-icons/rx';
 import { useEffect } from 'react';
 
-export default Overlay = ({ isOpen, car }) => {
+export const Overlay = ({ isOpen, car }) => {
   // eslint-disable-next-line
   useEffect(() => (document.body.style.overflow = 'hidden'), []);
 

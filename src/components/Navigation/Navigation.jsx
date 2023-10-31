@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import './Navigation.scss';
 import { IoHome } from 'react-icons/io5';
 
-export default Navigation = () => (
+export const Navigation = () => (
   <nav className="navigation">
     <ul>
       <li>

@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import Overlay from '../Overlay/Overlay.jsx';
+import { Overlay } from '../';
 import './ItemCar.scss';
 import { MdOutlineFavoriteBorder, MdOutlineFavorite } from 'react-icons/md';
 import capCar from '../../images/cap-car.jpg';
 
-export default ItemCar = ({ car }) => {
+export const ItemCar = ({ car }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
 

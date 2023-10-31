@@ -1,6 +1,6 @@
-import Articale from '../Articale/Articale.jsx';
+import { Articale } from '../';
 
-export default Info = ({ car }) => (
+export const Info = ({ car }) => (
   <>
     <Articale car={car} />
   </>
