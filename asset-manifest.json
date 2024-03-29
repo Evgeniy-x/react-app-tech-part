@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-app-tech-part/static/css/main.42c7008f.css",
-    "main.js": "/react-app-tech-part/static/js/main.77286214.js",
-    "static/css/5.d0d8caa5.chunk.css": "/react-app-tech-part/static/css/5.d0d8caa5.chunk.css",
+    "main.css": "/react-app-tech-part/static/css/main.a7eb41d5.css",
+    "main.js": "/react-app-tech-part/static/js/main.2d6d4887.js",
+    "static/css/5.4208cd70.chunk.css": "/react-app-tech-part/static/css/5.4208cd70.chunk.css",
     "static/js/5.c1d12e8e.chunk.js": "/react-app-tech-part/static/js/5.c1d12e8e.chunk.js",
-    "static/css/263.dc002adf.chunk.css": "/react-app-tech-part/static/css/263.dc002adf.chunk.css",
+    "static/css/263.3415d001.chunk.css": "/react-app-tech-part/static/css/263.3415d001.chunk.css",
     "static/js/263.cd8c53f4.chunk.js": "/react-app-tech-part/static/js/263.cd8c53f4.chunk.js",
     "static/js/279.fa325a6c.chunk.js": "/react-app-tech-part/static/js/279.fa325a6c.chunk.js",
     "static/media/Comfortaa-Bold.ttf": "/react-app-tech-part/static/media/Comfortaa-Bold.b54f8469bcbf22829055.ttf",
@@ -13,16 +13,16 @@
     "static/media/home.jpg": "/react-app-tech-part/static/media/home.3b6a7e32c4ee586710d6.jpg",
     "static/media/cap-car.jpg": "/react-app-tech-part/static/media/cap-car.3d8d3feb273ce181d7dc.jpg",
     "index.html": "/react-app-tech-part/index.html",
-    "main.42c7008f.css.map": "/react-app-tech-part/static/css/main.42c7008f.css.map",
-    "main.77286214.js.map": "/react-app-tech-part/static/js/main.77286214.js.map",
-    "5.d0d8caa5.chunk.css.map": "/react-app-tech-part/static/css/5.d0d8caa5.chunk.css.map",
+    "main.a7eb41d5.css.map": "/react-app-tech-part/static/css/main.a7eb41d5.css.map",
+    "main.2d6d4887.js.map": "/react-app-tech-part/static/js/main.2d6d4887.js.map",
+    "5.4208cd70.chunk.css.map": "/react-app-tech-part/static/css/5.4208cd70.chunk.css.map",
     "5.c1d12e8e.chunk.js.map": "/react-app-tech-part/static/js/5.c1d12e8e.chunk.js.map",
-    "263.dc002adf.chunk.css.map": "/react-app-tech-part/static/css/263.dc002adf.chunk.css.map",
+    "263.3415d001.chunk.css.map": "/react-app-tech-part/static/css/263.3415d001.chunk.css.map",
     "263.cd8c53f4.chunk.js.map": "/react-app-tech-part/static/js/263.cd8c53f4.chunk.js.map",
     "279.fa325a6c.chunk.js.map": "/react-app-tech-part/static/js/279.fa325a6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c7008f.css",
-    "static/js/main.77286214.js"
+    "static/css/main.a7eb41d5.css",
+    "static/js/main.2d6d4887.js"
   ]
 }
